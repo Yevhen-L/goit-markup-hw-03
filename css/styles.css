@@ -1,0 +1,271 @@
+:root {
+  /* colors */
+  --brand-color-iris: #4d5ae5;
+  --brand-color-ocean: #404bbf;
+  --brand-color-green: #31d0aa;
+  --brand-color-slate: #434455;
+  --brand-color-light-slate: #8e8f99;
+  --brand-color-cornflower: #e7e9fc;
+  --brand-color-cloud: #f4f4fd;
+  --brand-color-navy: #2e2f42;
+  --brand-color-white: #ffffff;
+  --brand-color-dairy: #fcfcfc;
+  /* fonnts */
+  --primary-font-roboto: "Roboto", sans-serif;
+  --secondary-font-raleway: "Raleway", sans-serif;
+}
+/**
+  |============================
+  | DEFAULT CLASS
+  |============================
+*/
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+/* .link:hover,
+.link:focus {
+  color: ;
+  background-color: ;
+} */
+
+/**
+  |============================
+  | BODY
+  |============================
+*/
+.body {
+  font-family: var(--primary-font-roboto);
+  color: var(--brand-color-slate);
+  background-color: var(--brand-color-white);
+}
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+/* NAV */
+.nav {
+  background-color: var(--brand-color-white);
+}
+.logo-w {
+  color: var(--brand-color-iris);
+  font-family: var(--secondary-font-raleway);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-logo-navy {
+  color: var(--brand-color-navy);
+}
+.nav-header {
+  color: var(--brand-color-navy);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-header:hover,
+.nav-header:focus {
+  color: var(--brand-color-ocean);
+}
+
+/* ADDRESS */
+
+.address {
+  font-style: normal;
+}
+.address-header {
+  color: var(--brand-color-slate);
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-header:hover,
+.address-header:focus {
+  color: var(--brand-color-ocean);
+}
+/**
+  |============================
+  | MAIN INDEX.HTML
+  |============================
+*/
+
+/* HERO */
+
+/* .main {} */
+
+.hero {
+  background-color: var(--brand-color-navy);
+}
+.hero-text {
+  color: var(--brand-color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.btn-hero {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-iris);
+  font-family: var(--primary-font-roboto);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+.btn-hero:hover,
+.btn-hero:focus {
+  background-color: var(--brand-color-ocean);
+  cursor: pointer;
+}
+
+/* FUTURES */
+
+/* .futures {} */
+/* .futures-item {} */
+
+.futures-title {
+  color: var(--brand-color-navy);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.futures-text {
+  color: var(--brand-color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.title-section {
+  color: var(--brand-color-navy);
+  background-color: var(--brand-color-white);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* OUR WORKS */
+
+/* .works-img {} */
+/* .works {} */
+/* .title-section {} */
+/* OUR TEAMS */
+/* .our-teams {} */
+
+.teams {
+  background-color: var(--brand-color-cloud);
+}
+.teams-item-img {
+  background-color: var(--brand-color-white);
+}
+
+/* .card-teams  */
+
+.title-card {
+  color: var(--brand-color-navy);
+  background-color: var(--brand-color-white);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.text-card {
+  color: var(--brand-color-slate);
+  background-color: var(--brand-color-white);
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+
+.footer {
+  background-color: var(--brand-color-navy);
+}
+.footer-logo-navy {
+  color: var(--brand-color-cloud);
+}
+.footer-text {
+  color: var(--brand-color-cloud);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/**
+  |============================
+  | MAIM PROTFOLIO
+  |============================
+*/
+
+/* BUTTONS AREA */
+
+.btn-list {
+  /* background-color: var(--brand-color-cloud); */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.btn-filter {
+  font-family: var(--primary-font-roboto);
+  color: var(--brand-color-iris);
+  background-color: var(--brand-color-cloud);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--brand-color-white);
+  background-color: var(--brand-color-ocean);
+  /* cursor: pointer; */
+}
+
+/* PORTFOLOI WORKS */
+
+/* .img-portfolio {} */
+
+.title-card-portfolio {
+  color: var(--brand-color-navy);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text-card-portfolio {
+  color: var(--brand-color-slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
