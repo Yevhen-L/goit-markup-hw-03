@@ -40,6 +40,7 @@
   |============================
 */
 .body {
+  margin: 0;
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-slate);
   background-color: var(--brand-color-white);
