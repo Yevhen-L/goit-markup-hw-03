@@ -54,6 +54,7 @@ img {
 .link {
   color: currentColor;
   text-decoration: none;
+  padding: 24px 0;
 }
 .list {
   list-style: none;
@@ -91,8 +92,12 @@ button {
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-slate);
   background-color: var(--brand-color-white);
+  width: 1440px;
+  height: 2076px;
 }
-
+div {
+  outline: solid red;
+}
 .container {
   width: 1128px;
   padding-left: 15px;
@@ -107,17 +112,18 @@ button {
   |============================
 */
 
-/* .header {
-  align-items: center;
-} */
+.header {
+  border-bottom: 1px solid var(--brand-color-cornflower);
+}
+
 .header-box {
-  width: 1440px;
+  width: 1158px;
   margin-left: 0px;
   margin-top: 0px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--brand-color-cornflower);
 }
+
 /* NAV */
 .nav {
   display: flex;
@@ -142,8 +148,6 @@ button {
   text-transform: uppercase;
   margin-left: 156px;
   margin-right: 76px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .header-logo-navy {
   color: var(--brand-color-navy);
@@ -151,8 +155,6 @@ button {
 .nav-header {
   display: block;
   margin: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
   color: var(--brand-color-navy);
   font-weight: 500;
   font-size: 16px;
@@ -181,9 +183,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-right: 40px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 .address-header:hover,
 .address-header:focus {
@@ -415,12 +414,14 @@ button {
 .btn-list {
   /* background-color: var(--brand-color-cloud); */
   display: flex;
-  width: 586px;
+  width: auto;
+  height: auto;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   gap: 24px;
   margin: 0;
+  padding: 0;
 }
 .btn-filter {
   font-family: var(--primary-font-roboto);
@@ -434,11 +435,19 @@ button {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 24px;
+  min-width: 68px;
+  max-width: 116px;
+  border: 1px solid var(--brand-color-cornflower);
+  border-radius: 4px;
 }
 .btn-filter:hover,
 .btn-filter:focus {
   color: var(--brand-color-white);
   background-color: var(--brand-color-ocean);
+  border: 1px solid transparent;
   /* cursor: pointer; */
 }
 
@@ -470,63 +479,61 @@ button {
   margin-left: 427px;
   margin-top: 168px; */
 }
-
-.b1 {
+/*
+.btn1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 12px 24px; */
-  width: 69px;
-  height: 48px;
+  padding: 12px 24px;
+  min-width: 69px;
   border: 1px solid var(--brand-color-cornflower);
-  /* box-shadow: 0px 3px 1px var(--brand-color-ocean); */
   border-radius: 4px;
 }
-.b2 {
+ .btn2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 12px 24px; */
+  padding: 12px 24px; 
   width: 116px;
   height: 48px;
   border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
 }
-.b3 {
+.btn3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 12px 24px; */
+  padding: 12px 24px;
   width: 78px;
   height: 48px;
   border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
 }
-.b4 {
+.btn4 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 12px 24px; */
+  padding: 12px 24px;
   width: 110px;
   height: 48px;
   border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
 }
-.b5 {
+.btn5 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 12px 24px; */
+  padding: 12px 24px;
   width: 126px;
   height: 48px;
   border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
-}
+} */
 .portfolio-card {
   --items: 3;
 }
