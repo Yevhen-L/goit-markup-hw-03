@@ -446,7 +446,7 @@ button {
 .portfoli-img-frame {
   width: 360px;
   height: 420px;
-  border: 1px solid var(--brand-color-cornflower);
+  border-bottom: 1px solid var(--brand-color-cornflower);
 }
 
 .portfolio-box {
