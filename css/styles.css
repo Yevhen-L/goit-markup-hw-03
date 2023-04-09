@@ -16,9 +16,14 @@
 }
 /**
   |============================
-  | DEFAULT CLASS
+  | DEFAULT
   |============================
 */
+
+* {
+  box-sizing: border-box;
+}
+
 .list {
   text-decoration: none;
   list-style: none;
@@ -28,11 +33,50 @@
   list-style: none;
   cursor: pointer;
 }
-/* .link:hover,
-.link:focus {
-  color: ;
-  background-color: ;
-} */
+/* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link {
+  color: currentColor;
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+/* reset end */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /**
   |============================
@@ -46,14 +90,38 @@
   background-color: var(--brand-color-white);
 }
 
+.container {
+  width: 1158px;
+  text-align: center;
+}
 /**
   |============================
   | HEADER
   |============================
 */
+
+/* .header {
+  align-items: center;
+} */
+.header-box {
+  width: 1440px;
+  margin-left: 0px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
 /* NAV */
 .nav {
+  display: flex;
+  align-items: center;
   background-color: var(--brand-color-white);
+  margin-right: auto;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
 }
 .logo-w {
   color: var(--brand-color-iris);
@@ -61,15 +129,22 @@
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
+  /* align-items: center; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-left: 156px;
+  margin-right: 76px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .header-logo-navy {
   color: var(--brand-color-navy);
 }
 .nav-header {
+  display: block;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: var(--brand-color-navy);
   font-weight: 500;
   font-size: 16px;
@@ -86,12 +161,21 @@
 .address {
   font-style: normal;
 }
+
+.address-link {
+  display: flex;
+  align-items: center;
+  margin-right: 116px;
+}
 .address-header {
   color: var(--brand-color-slate);
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .address-header:hover,
 .address-header:focus {
@@ -105,10 +189,23 @@
 
 /* HERO */
 
-/* .main {} */
+.main {
+}
+.hero-box {
+  padding-top: 188px;
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+}
+.container {
+}
 
 .hero {
   background-color: var(--brand-color-navy);
+  width: 1440px;
+  height: 600px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 .hero-text {
   color: var(--brand-color-white);
@@ -116,6 +213,8 @@
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  width: 496px;
+  margin-left: 472px;
 }
 .btn-hero {
   color: var(--brand-color-white);
@@ -124,11 +223,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  margin-top: 48px;
+  margin-right: auto;
+  min-width: 169px;
+  min-height: 56px;
 }
 .btn-hero:hover,
 .btn-hero:focus {
@@ -140,6 +240,8 @@
 
 /* .futures {} */
 /* .futures-item {} */
+.futures-box {
+}
 
 .futures-title {
   color: var(--brand-color-navy);
@@ -166,12 +268,17 @@
 
 /* OUR WORKS */
 
+.works-box {
+}
 /* .works-img {} */
 /* .works {} */
 /* .title-section {} */
+
 /* OUR TEAMS */
 /* .our-teams {} */
 
+.team-box {
+}
 .teams {
   background-color: var(--brand-color-cloud);
 }
@@ -204,18 +311,27 @@
   | FOOTER
   |============================
 */
-
+.footer-box {
+  padding-top: 100px;
+}
 .footer {
   background-color: var(--brand-color-navy);
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  text-align: left;
 }
 .footer-logo-navy {
   color: var(--brand-color-cloud);
 }
 .footer-text {
+  width: 262px;
   color: var(--brand-color-cloud);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: 156px;
+  margin-top: 16px;
 }
 
 /**
