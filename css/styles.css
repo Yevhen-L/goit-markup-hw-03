@@ -239,8 +239,19 @@ button {
 /* FUTURES */
 
 /* .futures {} */
-/* .futures-item {} */
+.futures-item {
+  width: 264px;
+  text-align: left;
+  display: inline-block;
+  display: flexbox;
+  margin-left: 24px;
+  gap: 24px;
+}
 .futures-box {
+  position: absolute;
+  /* width: 1128px; */
+  margin-top: 120px;
+  /* margin-left: 156px; */
 }
 
 .futures-title {
@@ -269,6 +280,8 @@ button {
 /* OUR WORKS */
 
 .works-box {
+  width: 1128px;
+  margin-top: 324px;
 }
 /* .works-img {} */
 /* .works {} */
