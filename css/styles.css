@@ -392,21 +392,23 @@ div {
   |============================
 */
 .footer-box {
-  margin-top: 100px;
-
+  margin-top: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer {
   background-color: var(--brand-color-navy);
   position: absolute;
   width: 1440px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  height: 312px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
-  margin-left: 0;
-    text-align: left;
+  margin-right: 1156px;
+  text-align: left;
 }
 .footer-logo-navy {
   color: var(--brand-color-cloud);
