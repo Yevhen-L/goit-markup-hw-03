@@ -54,7 +54,8 @@ img {
 .link {
   color: currentColor;
   text-decoration: none;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .list {
   list-style: none;
@@ -93,13 +94,12 @@ button {
   color: var(--brand-color-slate);
   background-color: var(--brand-color-white);
   width: 1440px;
-  height: 2076px;
 }
 div {
   outline: solid red;
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -175,7 +175,8 @@ div {
 .address-link {
   display: flex;
   align-items: center;
-  margin-right: 116px;
+  margin-right: 40px;
+  gap: 40px;
 }
 .address-header {
   color: var(--brand-color-slate);
