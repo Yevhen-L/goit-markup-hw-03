@@ -96,9 +96,18 @@ button {
   background-color: var(--brand-color-white);
   width: 1440px;
 }
-div {
-  outline: solid red;
-}
+
+/**
+  |============================
+  | OUTLINE DIV
+  |============================
+*/
+
+/* div {outline: solid red;} */
+
+
+
+
 .container {
   width: 1158px;
   padding-left: 15px;
