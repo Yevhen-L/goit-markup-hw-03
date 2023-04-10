@@ -393,7 +393,7 @@ div {
 */
 .footer-box {
   margin-top: 100px;
-  margin-left: 0;
+
 }
 .footer {
   background-color: var(--brand-color-navy);
@@ -402,9 +402,11 @@ div {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.logo-footer{
+.logo-footer {
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
+  margin-left: 0;
+    text-align: left;
 }
 .footer-logo-navy {
   color: var(--brand-color-cloud);
