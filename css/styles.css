@@ -431,12 +431,17 @@ button {
   | MAIM PROTFOLIO
   |============================
 */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 /* BUTTONS AREA */
 
 .btn-list {
   /* background-color: var(--brand-color-cloud); */
   display: flex;
+  /* /\justify-content: center; */
   width: auto;
   height: auto;
   align-items: center;
@@ -475,7 +480,7 @@ button {
 }
 
 /* PORTFOLOI WORKS */
-.portfoli-img-frame {
+.portfolio-img-frame {
   width: 360px;
   height: 420px;
   border-bottom: 1px solid var(--brand-color-cornflower);
