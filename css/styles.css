@@ -52,6 +52,7 @@ img {
   height: auto;
 }
 .link {
+  display: inline-block;
   color: currentColor;
   text-decoration: none;
   padding-top: 24px;
@@ -314,6 +315,9 @@ div {
   display: flex;
   gap: 24px;
 }
+
+.works-item {
+}
 .works-img {
   border: 1px solid var(--brand-color-cornflower);
 }
@@ -331,7 +335,6 @@ div {
   width: 1440px;
   height: 732px;
   margin-top: 876px;
-  margin-bottom: -120px;
   align-items: center;
   text-align: center;
   background-color: var(--brand-color-cloud);
@@ -390,26 +393,31 @@ div {
 */
 .footer-box {
   margin-top: 100px;
+  margin-left: 0;
 }
 .footer {
   background-color: var(--brand-color-navy);
   position: absolute;
   width: 1440px;
-  height: 312px;
-  text-align: left;
-  margin-top: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.logo-footer{
+  display: inline-block;
+  margin-bottom: 16px; 
 }
 .footer-logo-navy {
   color: var(--brand-color-cloud);
 }
 .footer-text {
+  text-align: left;
   width: 262px;
   color: var(--brand-color-cloud);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 156px;
-  margin-top: 16px;
+  /* margin-left: 156px;
+  margin-top: 16px; */
 }
 
 /**
