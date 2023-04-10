@@ -96,7 +96,7 @@ button {
   width: 1440px;
 }
 div {
-  /* outline: solid red; */
+  outline: solid red;
 }
 .container {
   width: 1158px;
@@ -145,10 +145,9 @@ div {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  /* align-items: center; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 0;
+  margin-right: 76px;
 }
 .header-logo-navy {
   color: var(--brand-color-navy);
@@ -202,20 +201,16 @@ div {
 }
 .hero-box {
   display: block;
-  padding-top: 188px;
   position: absolute;
   width: 1440px;
-  height: 600px;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero {
   background-color: var(--brand-color-navy);
   width: 1440px;
   height: 600px;
-  margin-left: 0px;
-  margin-top: 0px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-text {
   color: var(--brand-color-white);
@@ -254,10 +249,11 @@ div {
 
 /* FUTURES */
 
-/* .futures {} */
-.futures-box {
+.futures {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.futures-box {
   position: absolute;
   width: 1128px;
   padding: 0;
@@ -301,6 +297,9 @@ div {
 }
 
 /* OUR WORKS */
+.our-works {
+  padding-bottom: 120px;
+}
 
 .works-box {
   display: block;
@@ -319,8 +318,9 @@ div {
   border: 1px solid var(--brand-color-cornflower);
 }
 .works {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
+
 /* .title-section {} */
 
 /* OUR TEAMS */
