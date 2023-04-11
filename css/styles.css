@@ -457,6 +457,7 @@ button {
   padding: 0;
 }
 .btn-filter {
+  display: flex;
   font-family: var(--primary-font-roboto);
   color: var(--brand-color-iris);
   background-color: var(--brand-color-cloud);
@@ -474,8 +475,6 @@ button {
   max-width: 116px;
   border: 1px solid var(--brand-color-cornflower);
   border-radius: 4px;
-  display: flex;
-  border-radius: 4px;
 }
 .btn-filter:hover,
 .btn-filter:focus {
@@ -486,13 +485,13 @@ button {
 }
 
 /* PORTFOLOI WORKS */
-.portfolio-img-frame {
-  row-gap: 48px;
-  width: 360px;
-  /* height: 420px; */
-  border-bottom: 1px solid var(--brand-color-cornflower);
-  margin-bottom: 4px;
-}
+
+/* .portfolio-img-frame { 
+row-gap: 48px;
+width: 360px; 
+ height: 420px; 
+ border-bottom: 1px solid var(--brand-color-cornflower);
+margin-bottom: 4px; } */
 
 .portfolio-box {
   width: 1128px;
@@ -527,14 +526,14 @@ button {
 }
 .img-portfolio {
   width: 360px;
+  border-bottom: 1px solid var(--brand-color-cornflower);
+  margin-bottom: 8px;
 }
 
 .title-card-box {
   text-align: left;
-  /* margin-bottom: 8px; */
-  /* padding-left: 16px; */
   padding: 32px 16px;
-  /* border: 1px solid var(var(--brand-color-cornflower)); */
+  /* border: 1px solid var(var(--brand-color-cornflower)) */
 }
 
 .title-card-portfolio {
