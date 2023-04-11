@@ -484,18 +484,14 @@ button {
   border: 1px solid transparent;
   /* cursor: pointer; */
 }
-/* .btn-filter-2
-.btn-filter-3
-.btn-filter-4
-.btn-filter-5 */
 
 /* PORTFOLOI WORKS */
 .portfolio-img-frame {
-  /* row-gap: 48px; */
+  row-gap: 48px;
   width: 360px;
   /* height: 420px; */
-  /* border-bottom: 1px solid var(--brand-color-cornflower); */
-  /* margin-bottom: 48px */
+  border-bottom: 1px solid var(--brand-color-cornflower);
+  margin-bottom: 4px;
 }
 
 .portfolio-box {
@@ -518,7 +514,6 @@ button {
 
 .portfolio-card {
   --items: 3;
-  row-gap: 48px;
 }
 
 .card-set {
@@ -535,10 +530,11 @@ button {
 }
 
 .title-card-box {
-  margin-bottom: 8px;
-  padding-left: 16px;
+  text-align: left;
+  /* margin-bottom: 8px; */
+  /* padding-left: 16px; */
   padding: 32px 16px;
-  border: 1px solid var(var(--brand-color-cornflower));
+  /* border: 1px solid var(var(--brand-color-cornflower)); */
 }
 
 .title-card-portfolio {
