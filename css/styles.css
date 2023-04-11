@@ -344,12 +344,14 @@ button {
   align-items: center;
   text-align: center;
   background-color: var(--brand-color-cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-teams {
   background-color: var(--brand-color-cloud);
-  padding-top: 120px;
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 72px;
 }
 /* .teams {} */
 .teams-item-img {
@@ -367,7 +369,6 @@ button {
 }
 .card-teams {
   margin-top: 72px;
-  margin-bottom: 120px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -382,6 +383,7 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .text-card {
   color: var(--brand-color-slate);
@@ -422,8 +424,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* margin-left: 156px;
-  margin-top: 16px; */
 }
 
 /**
