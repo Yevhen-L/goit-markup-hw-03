@@ -533,7 +533,7 @@ margin-bottom: 4px; } */
 .title-card-box {
   text-align: left;
   padding: 32px 16px;
-  border: 1px solid var(var(--brand-color-cornflower))
+  border: 1px solid var(--brand-color-cornflower);
 }
 
 .title-card-portfolio {
