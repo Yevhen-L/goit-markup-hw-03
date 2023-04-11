@@ -104,7 +104,9 @@ button {
   |============================
 */
 
-/* div {outline: solid red;} */
+div {
+  outline: solid red;
+}
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -395,13 +397,14 @@ button {
 */
 
 .footer-box {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
 }
 .footer {
   background-color: var(--brand-color-navy);
   position: absolute;
   width: 1440px;
+  height: 312px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
