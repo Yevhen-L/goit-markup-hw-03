@@ -445,7 +445,7 @@ button {
 .btn-list {
   /* background-color: var(--brand-color-cloud); */
   display: flex;
-  /* /\justify-content: center; */
+  justify-content: center;
   width: auto;
   height: auto;
   align-items: center;
