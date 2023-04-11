@@ -204,8 +204,8 @@ button {
 
 /* HERO */
 
-.main {
-}
+/* .main {} */
+
 .hero-box {
   display: block;
   position: absolute;
@@ -322,8 +322,8 @@ button {
   gap: 24px;
 }
 
-.works-item {
-}
+/* .works-item {} */
+
 .works-img {
   border: 1px solid var(--brand-color-cornflower);
 }
@@ -334,7 +334,7 @@ button {
 /* .title-section {} */
 
 /* OUR TEAMS */
-/* .teams {] */
+/* .teams {} */
 
 .team-box {
   display: inline-block;
@@ -481,7 +481,6 @@ button {
   color: var(--brand-color-white);
   background-color: var(--brand-color-ocean);
   border: 1px solid transparent;
-  /* cursor: pointer; */
 }
 
 /* PORTFOLOI WORKS */
@@ -508,11 +507,10 @@ margin-bottom: 4px; } */
   margin-top: 120px;
 }
 
-/* .portfolio-btns-box {
-}  */
+/* .portfolio-btns-box {}  */
 
 .portfolio-card {
-  --items: 3;
+  --item: 3;
 }
 
 .card-set {
@@ -526,8 +524,6 @@ margin-bottom: 4px; } */
 }
 .img-portfolio {
   width: 360px;
-  /* border-bottom: 1px solid var(--brand-color-cornflower);
-  margin-bottom: 8px; */
 }
 
 .title-card-box {
