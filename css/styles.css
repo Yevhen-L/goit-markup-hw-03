@@ -510,8 +510,9 @@ button {
 .title-card-box {
   text-align: left;
   padding: 32px 16px;
-  border-top: none;
+
   border: 1px solid var(--brand-color-cornflower);
+  border-top: none;
 }
 .title-card-portfolio {
   color: var(--brand-color-navy);
